@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E6E6FA">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="361dp"
+        android:layout_marginLeft="361dp"
+        android:layout_marginTop="191dp"
+        app:srcCompat="@android:drawable/btn_star" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="255dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="191dp"
+        app:srcCompat="@android:drawable/btn_star" />
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/logo1"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/Bagitronik_Logo_Horizontal_Small" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="209dp"
+        android:layout_height="247dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="458dp"
+        android:src="@drawable/download"/>
+
+    <TextView
+        android:id="@+id/tx03"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="Ulasan" />
+
+
+
+    <TextView
+        android:id="@+id/tx02"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Barang Baru" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginRight="244dp"
+        android:text="Deskripsi" />
+
+    <TextView
+        android:id="@+id/tx01"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Macbook Air" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="382dp"
+        android:layout_height="226dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="MacBook Air (Retina, 13 inci, 2019) Warna: Space gray, gold, silver. Pengidentifikasi Model: MacBookAir8,2. Nomor Komponen: MVFH2xx/A, MVFJ2xx/A, MVFK2xx/A, MVFL2xx/A, MVFM2xx/A, MVFN2xx/A, MVH62xx/A, MVH82xx/A" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginBottom="52dp"
+        android:text="Donasikan" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginLeft="236dp"
+        android:layout_marginBottom="49dp"
+        android:text="Tukar Barang"
+        />
+
+    <View
+        android:id="@+id/dv01"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="?android:attr/listDivider" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="326dp"
+        android:layout_marginLeft="326dp"
+        android:layout_marginTop="191dp"
+        app:srcCompat="@android:drawable/btn_star" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="290dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="191dp"
+        app:srcCompat="@android:drawable/btn_star" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#000000"/>
+
+
+</RelativeLayout>
